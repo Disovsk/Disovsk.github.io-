@@ -13,8 +13,14 @@
 
 #jumbotron {
 
+	grid-column: 1 / 13;
+	margin: auto;
+	padding: 10% 5%;
+}
 
-	grid-column: 1 / 12;
+#jumbotron h1{
+	display: inline;
+	float:none;
 
 }
 
@@ -24,10 +30,21 @@
 
 }
 
+#maintext p {
+	margin-left: 10%;
+	font-size:100%;
+	margin-bottom: 3%;
+}
+
+#maintext p:nth-child(2) {
+	font-size: 80%;
+}
+
 #mainpicture{
 
 	grid-column: 7 / 13;
 
+	margin: auto;
 }
 
 #button1{
