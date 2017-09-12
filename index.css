@@ -48,45 +48,58 @@
 }
 
 #button1{
-
+	padding-top: 15%;
+	padding-bottom: 5%;
 	grid-column: 2 / 4;
+	margin:auto;
 
 }
 
 #button2{
-
+	padding-top: 15%;
+	padding-bottom: 5%;
 	grid-column: 6 / 8;
-	
+	margin:auto;
+
 }
 
 #button3{
 
+	padding-top: 15%;
+	padding-bottom: 5%;
 	grid-column: 10 / 12;
+	margin:auto;
 }
 
 #button1text{
 
 	grid-column: 2 / 4;
+	margin:auto;
 
 }
 
 #button2text{
 
 	grid-column: 6 / 8;
-	
+	margin:auto;
+
 }
 
 #button3text{
 
 	grid-column: 10 / 12;
+	margin:auto;
+
 }
 
 #getstarted{
 	grid-column: 2 / 7;
+	margin:auto;
 }
 
 #learnmore {
 	grid-column: 8 / 13;
+	margin:auto;
 }
 
 #footer{ 
